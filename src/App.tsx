@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { linuxData } from './data/marathiLinuxData';
 import { Sidebar } from './components/Sidebar';
 import { ContentArea } from './components/ContentArea';
-import { AiAssistant } from './components/AiAssistant';
 import { Menu } from 'lucide-react';
 
 export default function App() {
@@ -41,9 +40,6 @@ export default function App() {
           <ContentArea topic={activeTopic} />
         </div>
       </main>
-
-      {/* AI Assistant */}
-      <AiAssistant />
     </div>
   );
 }
